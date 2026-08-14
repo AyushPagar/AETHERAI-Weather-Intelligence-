@@ -1,0 +1,22 @@
+{
+  "model_name": "RandomForestRegressor (Temperature)",
+  "mae": 0.8241,
+  "rmse": 1.1452,
+  "r2": 0.8924,
+  "feature_importance": {
+    "latitude": 0.0821,
+    "temp_max_today": 0.2854,
+    "temp_min_today": 0.1423,
+    "temp_mean_today": 0.1982,
+    "temp_lag1": 0.0764,
+    "temp_lag2": 0.0412,
+    "humidity_mean": 0.0351,
+    "pressure_mean": 0.0489,
+    "pressure_change": 0.0215,
+    "wind_max": 0.0184,
+    "cloud_cover_mean": 0.0211,
+    "precipitation_today": 0.0094,
+    "day_of_year_sin": 0.0125,
+    "day_of_year_cos": 0.0075
+  }
+}
